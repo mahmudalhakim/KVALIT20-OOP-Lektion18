@@ -16,6 +16,14 @@ public class Uppgift_13_6 {
     Card c2 = Card.getInstance(Card.CLUBS, 7);
     Card.print(c2);
 
+    // Övning
+    // Skapa en klassmetod som slumpgenererar ett kort
+    System.out.println("--- Slumpgenereade kort ---");
+    for (int i = 0; i < 100; i++) {
+      Card c = Card.getInstance();
+      Card.print(c);
+    }
+
   }
 
 
